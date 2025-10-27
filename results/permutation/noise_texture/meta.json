@@ -1,0 +1,52 @@
+{
+  "algo": "permutation",
+  "iv": "c7db7706f65d1bdfcbc538c092884b7e",
+  "timestamp": 1761551267727,
+  "algorithm": "permutation",
+  "imageName": "noise_texture",
+  "iterations": 15,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 786432,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 4.805984077833154,
+      "encrypted": 7.9997186240558005
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.0032079434228037902,
+        "vertical": 0.003565562926084621,
+        "diagonal": 0.004722234174210009
+      },
+      "encrypted": {
+        "horizontal": 0.1845847292969698,
+        "vertical": 0.1803203951386456,
+        "diagonal": 0.20119907348690255
+      }
+    },
+    "npcr": 100,
+    "uaci": 25.21829443040237,
+    "statistics": {
+      "original": {
+        "mean": 126.60225296020579,
+        "variance": 17.93802050134218,
+        "standardDeviation": 4.235330034524131,
+        "pixelCount": 262144
+      },
+      "encrypted": {
+        "mean": 127.40549850463886,
+        "variance": 1829.124515213167,
+        "standardDeviation": 42.76826528178536,
+        "pixelCount": 262144
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.47923827327155
+  }
+}

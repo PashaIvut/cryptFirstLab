@@ -1,0 +1,52 @@
+{
+  "algo": "stream",
+  "iv": "493ca3aada9d716a50f0aa8aea97cd9c",
+  "timestamp": 1761551265924,
+  "algorithm": "stream",
+  "imageName": "checkerboard",
+  "iterations": 10,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 786432,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 2.584962500721156,
+      "encrypted": 7.999784934602698
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.015693948812403456,
+        "vertical": 0.015693948812403456,
+        "diagonal": 0.030466530766925824
+      },
+      "encrypted": {
+        "horizontal": 0.1900478734587483,
+        "vertical": 0.1898885117688662,
+        "diagonal": 0.19021168484908635
+      }
+    },
+    "npcr": 100,
+    "uaci": 35.812071257946535,
+    "statistics": {
+      "original": {
+        "mean": 110.16666666647859,
+        "variance": 4646.694444447225,
+        "standardDeviation": 68.16666666668706,
+        "pixelCount": 262144
+      },
+      "encrypted": {
+        "mean": 127.54804611206016,
+        "variance": 1815.556327712744,
+        "standardDeviation": 42.60934554429044,
+        "pixelCount": 262144
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.489484599992345
+  }
+}

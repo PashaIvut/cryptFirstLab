@@ -1,0 +1,31 @@
+{
+  "name": "cryptopic-cli",
+  "version": "1.0.0",
+  "description": "Консольное приложение для шифрования изображений",
+  "type": "module",
+  "main": "src/main.ts",
+  "bin": {
+    "cryptopic": "./src/main.ts"
+  },
+  "scripts": {
+    "start": "node src/main.ts"
+  },
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "sharp": "^0.33.5"
+  },
+  "keywords": [
+    "cryptography",
+    "image-encryption",
+    "stream-cipher",
+    "permutation-cipher"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}

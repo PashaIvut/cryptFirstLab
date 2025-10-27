@@ -1,0 +1,52 @@
+{
+  "algo": "permutation",
+  "iv": "a2e14f5650dd78f7c833cb89c3307a66",
+  "timestamp": 1761551268080,
+  "algorithm": "permutation",
+  "imageName": "bird",
+  "iterations": 15,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 314880,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 2.8293793620462635,
+      "encrypted": 7.956853621772054
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.003646988866902525,
+        "vertical": 0.003709446415872949,
+        "diagonal": 0.004545457678308368
+      },
+      "encrypted": {
+        "horizontal": 0.18322847334652334,
+        "vertical": 0.20684972717327976,
+        "diagonal": 0.18781928871811082
+      }
+    },
+    "npcr": 100,
+    "uaci": 43.73277713016101,
+    "statistics": {
+      "original": {
+        "mean": 220.68129128557555,
+        "variance": 1764.327310938177,
+        "standardDeviation": 42.00389637805256,
+        "pixelCount": 104960
+      },
+      "encrypted": {
+        "mean": 127.40839049796806,
+        "variance": 1829.9261076084495,
+        "standardDeviation": 42.77763560095917,
+        "pixelCount": 104960
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.52018073489558
+  }
+}

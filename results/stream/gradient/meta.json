@@ -1,0 +1,52 @@
+{
+  "algo": "stream",
+  "iv": "d27907c6e2e69e485b2525ca04af4193",
+  "timestamp": 1761551263153,
+  "algorithm": "stream",
+  "imageName": "gradient",
+  "iterations": 10,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 786432,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 7.971641949678417,
+      "encrypted": 7.999800626796436
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.0006523207171000833,
+        "vertical": 0.0006523207171000833,
+        "diagonal": 0.0009803934083812238
+      },
+      "encrypted": {
+        "horizontal": 0.1903958551171625,
+        "vertical": 0.1903943812113887,
+        "diagonal": 0.1903329868883846
+      }
+    },
+    "npcr": 100,
+    "uaci": 32.06057430092805,
+    "statistics": {
+      "original": {
+        "mean": 127.00130335489905,
+        "variance": 304.5744353478258,
+        "standardDeviation": 17.452061063032808,
+        "pixelCount": 262144
+      },
+      "encrypted": {
+        "mean": 127.48439025879041,
+        "variance": 1820.2920384467561,
+        "standardDeviation": 42.664880621498945,
+        "pixelCount": 262144
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.47254734413296
+  }
+}

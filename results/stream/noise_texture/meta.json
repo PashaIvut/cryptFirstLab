@@ -1,0 +1,52 @@
+{
+  "algo": "stream",
+  "iv": "a111e057503aae0f243cf7c54b8b7883",
+  "timestamp": 1761551267445,
+  "algorithm": "stream",
+  "imageName": "noise_texture",
+  "iterations": 10,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 786432,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 4.805984077833154,
+      "encrypted": 7.999763748718358
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.0032079434228037902,
+        "vertical": 0.003565562926084621,
+        "diagonal": 0.004722234174210009
+      },
+      "encrypted": {
+        "horizontal": 0.1903342558484589,
+        "vertical": 0.19035898249140037,
+        "diagonal": 0.19033043879965103
+      }
+    },
+    "npcr": 100,
+    "uaci": 25.171507293102792,
+    "statistics": {
+      "original": {
+        "mean": 126.60225296020579,
+        "variance": 17.93802050134218,
+        "standardDeviation": 4.235330034524131,
+        "pixelCount": 262144
+      },
+      "encrypted": {
+        "mean": 127.3643163045283,
+        "variance": 1818.728238940559,
+        "standardDeviation": 42.646550141137546,
+        "pixelCount": 262144
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.47533830630234
+  }
+}

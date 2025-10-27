@@ -1,0 +1,52 @@
+{
+  "algo": "permutation",
+  "iv": "9d9940b083d0056902081360aa1b6f96",
+  "timestamp": 1761551265273,
+  "algorithm": "permutation",
+  "imageName": "gradient",
+  "iterations": 15,
+  "reversibility": {
+    "identical": true,
+    "differences": 0,
+    "totalBytes": 786432,
+    "accuracy": 100
+  },
+  "metrics": {
+    "entropy": {
+      "original": 7.971641949678417,
+      "encrypted": 7.999194909452897
+    },
+    "correlation": {
+      "original": {
+        "horizontal": 0.0006523207171000833,
+        "vertical": 0.0006523207171000833,
+        "diagonal": 0.0009803934083812238
+      },
+      "encrypted": {
+        "horizontal": 0.18188594287600945,
+        "vertical": 0.17961822642870684,
+        "diagonal": 0.20419466466765065
+      }
+    },
+    "npcr": 100,
+    "uaci": 32.05687479256025,
+    "statistics": {
+      "original": {
+        "mean": 127.00130335489905,
+        "variance": 304.5744353478258,
+        "standardDeviation": 17.452061063032808,
+        "pixelCount": 262144
+      },
+      "encrypted": {
+        "mean": 127.54467391967869,
+        "variance": 1824.5076613648343,
+        "standardDeviation": 42.714255950031884,
+        "pixelCount": 262144
+      }
+    }
+  },
+  "sensitivity": {
+    "npcr": 100,
+    "uaci": 33.481970893012154
+  }
+}
